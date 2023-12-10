@@ -24,7 +24,7 @@ class Sequential():
     def evaluate(self, x, y, batch_size):
         pass
 
-    def fit(self, x, y, epochs=1, batch_size=1, validation_split=0.1):
+    def fit(self, x, y, epochs=1, batch_size=None, validation_split=0.1):
         pass
 
     def predict(self, x):
