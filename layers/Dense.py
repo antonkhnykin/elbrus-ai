@@ -1,6 +1,7 @@
 import numpy as np
 
-class Dense():
+
+class Dense:
 
     units = 0
     activation = ""
@@ -13,9 +14,9 @@ class Dense():
         self.units = units
         self.activation = activation
         self.input_shape = input_shape
-        self.W = np.array((units, input_shape))
-        self.b = np.array((units, input_shape))
-        #self.outputs = np.reshape(self.outputs, units)
+        self.W = np.random.rand(units, input_shape)
+        self.b = np.random.rand(units, 1)
+        self.outputs = np.random.rand(units, 1)
 
         if self.units < 0:
             raise ValueError(

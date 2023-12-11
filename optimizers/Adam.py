@@ -1,6 +1,6 @@
 
 
-class Adam():
+class Adam:
 
     learning_rate = 0.001
 
