@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-from layers.Dense import Dense
-from models.Sequential import Sequential
+from elbrus-ai.layers.Dense import Dense
+from elbrus-ai.models.Sequential import Sequential
 
 lst = []
 lst.append([1, 2, 1])
